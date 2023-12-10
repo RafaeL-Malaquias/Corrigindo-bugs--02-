@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Nesse desafio, você receberá um código com o projeto desenvolvido.<br>
 O código sofreu algumas alterações nos principais pontos abordados nessa fase e, como podemos ver na imagem abaixo, ele não está mais da mesma forma que o Maykão deixou.
 
-[Link](https://rafael-malaquias.github.io/Projeto-Discover/) - Para visualizar o projeto.
+[Link](https://rafael-malaquias.github.io/Corrigindo-bugs--02-/) - Para visualizar o projeto.
 
 ## 🔖 Layout
 
