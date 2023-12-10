@@ -1,6 +1,6 @@
 :root {
   --font-open: 'Open Sans', sans-serif;
-  --font-mulish: ''Mulish', sans-serif;'
+  --font-mulish: 'Mulish', sans-serif;
 }
 
 body {
@@ -39,14 +39,14 @@ body {
   }
   
   section p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 28px;
     color: #7d7987;
     width: 438px;
     margin: 40px 0;
   }
+
   /* nav */
-  
   nav {
     display: flex;
     justify-content: space-between;
