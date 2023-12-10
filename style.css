@@ -1,6 +1,11 @@
+:root {
+  --font-open: 'Open Sans', sans-serif;
+  --font-mulish: ''Mulish', sans-serif;'
+}
+
 body {
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--font-open);
     background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
     min-height: 100vh;
     
@@ -10,7 +15,6 @@ body {
     width: 1280px;
     margin: 0 auto;
     padding-top: 65px;
-    border: 1px solid red;
   }
 
   main {
@@ -18,18 +22,15 @@ body {
     justify-content: space-between;
     align-items: center;
   }
-/*  h1 as sections */
-    
-  h1, ul {
-    font-family: "Mulish", sans-serif;
-  }
-  
+/*  h1 as sections */  
   h1 {
+    font-family: var(--font-mulish);
     font-size: 46px;
     line-height: 56px;
     color: #1f1534;
     font-weight: normal;
     width: 490px;
+
   }
   
   h1 span {
@@ -77,11 +78,11 @@ body {
   
   button {
     color: white;
-    text-transform: uppercase;
-    font-family: "Open Sans", sans-serif;
     background: #69B99D;
-    border: 0;
+    border: none;
     padding: 14px 32px 15px 32px;
+    font-family: var(--font-open);
+    text-transform: uppercase;
   
     display: flex;
     justify-content: center;
@@ -108,6 +109,7 @@ body {
   
   footer a {
     font-weight: bold;
+
   }
   footer a:hover {
     font-weight: bold;
